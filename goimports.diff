@@ -1,0 +1,11 @@
+diff bar.go gofmt/bar.go
+--- /var/folders/7d/rkm5lnyd1sg244wxs6q_gfl40000gn/T/gofmt012252338	2014-11-06 12:31:07.000000000 -0800
++++ /var/folders/7d/rkm5lnyd1sg244wxs6q_gfl40000gn/T/gofmt040626793	2014-11-06 12:31:07.000000000 -0800
+@@ -1,5 +1,7 @@
+ package foo
+ 
++import "github.com/getlantern/flashlight/log"
++
+ func main() {
+ 	log.Error("whoops")
+ }
